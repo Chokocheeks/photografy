@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.scss">
+    <title>John Frodo = Great Photographer</title>
+</head>
+<body>
+    <main>
+      <header class="d-flex align-items-center">
+        <div id="extendedMenu" class="extended-menu">
+          <div class="extended-menu-block">
+           <ul class="menu">
+             <li class="h-line"><a class="menu-item" href="#">overview</a></li>
+             <li class="h-line">
+              <input class="drop-button" type="checkbox" id="dropButton">
+              <a class="menu-item" href="#">
+                <label for="dropButton" class="drop-label">photographs</label>
+              </a>
+              <ul class="menu-drop">
+                <li><a class="menu-drop-item" href="#IndividualWorks">individual works</a></li>
+                <li><a class="menu-drop-item" href="#WorkInSeries">work in series</a></li>
+                <li><a class="menu-drop-item" href="#Portraits">portraits</a></li>
+                <li><a class="menu-drop-item" href="#Landscapes">landscapes</a></li>
+                <li><a class="menu-drop-item" href="#Groups">groups</a></li>
+              </ul>
+            </li>
+             <li class="h-line">
+              <input class="drop-button" type="checkbox" id="dropButton2">
+                <a class="menu-item" href="#">
+                  <label for="dropButton2" class="drop-label">editorial</label>
+                </a>
+              <ul class="menu-drop">
+                <li><a class="menu-drop-item" href="#">vanity fair portraits</a></li>
+                <li><a class="menu-drop-item" href="#">venice film festival</a></li>
+                <li><a class="menu-drop-item" href="#">vogue</a></li>
+              </ul>
+            </li>
+             <li class="h-line"><a class="menu-item" href="#">films</a></li>
+             <li class="h-line"><a class="menu-item" href="#">published books</a></li>
+             <li class="h-line"><a class="menu-item" href="#">about</a></li>
+             <li class="h-line"><a class="menu-item" href="#">contact</a></li>
+           </ul>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <a class="navbar-brand">
+            <img width="40" height="40" src="./img/camera-icon.svg" alt="camera-icon">
+          </a>
+          <div>
+            <button id="navbarExtendedButton" class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="social">
+            <a href="https://www.instagram.com/mertalas/">
+              <img width="60" height="50" src="./img/insta-icon.jpg" alt="insta-icon">
+            </a>
+          </div>
+        </nav>
+        <div class="content">
+        <h1><span>I'm a <em>celebrated</em><br> American photographer.</span></h1>
+        <p class="p-style">John Frodo - photographer from 2000</p>
+        <button type="button" class="btn btn-dark">about me</button>
+        <button type="button" class="btn btn-outline-dark">order a photo shoot</button>
+        </div>
+        <div class="gallery animate-fade-in">
+          <picture>
+            <source srcset="./img/sample-30.webp">
+            <img class="gallery-item gallery-item-v1" src="./img/sample-30.png" alt="sample-30">
+          </picture>
+          <picture>
+            <source srcset="./img/sample-34.webp">
+            <img class="gallery-item gallery-item-v2" src="./img/sample-34.png" alt="sample-16">
+          </picture>
+          <picture>
+            <source srcset="./img/sample-31.webp">
+            <img class="gallery-item gallery-item-v3" src="./img/sample-31.png" alt="sample-31">
+          </picture>
+          <picture>
+            <source srcset="./img/sample-32.webp">
+            <img class="gallery-item gallery-item-v1" src="./img/sample-32.png" alt="sample-32">
+          </picture>
+          <picture>
+            <source srcset="./img/sample-33.webp">
+            <img class="gallery-item gallery-item-v2" src="./img/sample-33.png" alt="sample-33">
+          </picture>
+          <picture>
+            <source srcset="./img/header-1.webp">
+            <img class="gallery-item gallery-item-v3" src="./img/header-1.png" alt="header-1">
+          </picture>
+          <picture>
+            <source srcset="./img/header-2.webp">
+            <img class="gallery-item gallery-item-v1" src="./img/header-2.png" alt="header-2">
+          </picture>
+          <picture>
+            <source srcset="./img/header-3.webp">
+            <img class="gallery-item gallery-item-v2" src="./img/header-3.png" alt="header-3">
+          </picture>
+          <picture>
+            <source srcset="./img/header-5.webp">
+            <img class="gallery-item gallery-item-v3" src="./img/header-5.png" alt="header-5">
+          </picture>
+          <picture>
+            <source srcset="./img/header-6.webp">
+            <img class="gallery-item gallery-item-v1" src="./img/header-6.png" alt="header-6">
+          </picture>
+          <picture>
+            <source srcset="./img/header-7.webp">
+            <img class="gallery-item gallery-item-v2" src="./img/header-7.png" alt="header-7">
+          </picture>
+          <picture>
+            <source srcset="./img/header-8.webp">
+            <img class="gallery-item gallery-item-v3" src="./img/header-8.png" alt="header-8">
+          </picture>
+        </div>
+      </header>
+      <section id="gallerySection" class="gallery-section container-fluid text-center">
+        <div id="decorationMouseBlock" class="decoration-mouse-block">
+          <div id="decorationMouse" class="decoration-mouse"></div>
+          <p class="description bottom-line">Turn your project from <strong>mediocre  to remarkable</strong> — a design that is<br>simple, seamless and alive! With Sparrow, your outstanding<br>website is just one step away. Create with it what you will.
+          </p>
+        </div>
+        <div class="container-fluid gallery-images">  <!--INDIVIDUAL WORKS-->
+          <div><a name="IndividualWorks"></a></div>
+          <div class="caption bottom-line">
+            <H2>INDIVIDUAL WORKS</H2>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <div class="row flex-colomn">
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/sample-6.webp">
+                    <img src="./img/sample-6.png" data-full="./img/sample-full-6.jpg" alt="sample-6">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/sample-30.webp">
+                    <img src="./img/sample-30.png" alt="sample-16">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>landscapes</h3>
+                  <picture>
+                    <source srcset="./img/sample-1.webp">
+                    <img src="./img/sample-1.png" alt="sample-16">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>landscapes</h3>
+                  <picture>
+                    <source srcset="./img/sample-8.webp">
+                    <img src="./img/sample-8.png" alt="sample-16">
+                  </picture>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="row flex-colomn">
+                <div class="image-item">
+                  <h3>landscapes</h3>
+                  <picture>
+                    <source srcset="./img/sample-3.webp">
+                    <img src="./img/sample-3.png" alt="sample-16">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/sample-4.webp">
+                    <img src="./img/sample-4.png" alt="sample-16">
+                  </picture>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="row flex-colomn">
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/sample-2.webp">
+                    <img src="./img/sample-2.png" alt="sample-16">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/sample-5.webp">
+                    <img src="./img/sample-5.png" alt="sample-16">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>landscapes</h3>
+                  <picture>
+                    <source srcset="./img/sample-7.webp">
+                    <img src="./img/sample-8.png" alt="sample-16">
+                  </picture>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+        <div class="container-fluid gallery-images">  <!--PORTRAIT-->
+          <div><a name="Portraits"></a></div>
+          <div class="caption bottom-line">
+            <H2>PORTRAITS</H2>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <div class="row flex-colomn">
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/portraits/portrait-1.webp">
+                    <img src="./img/portraits/portrait-1.png" alt="portrait-1">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/portraits/portrait-2.webp">
+                    <img src="./img/portraits/portrait-2.png" alt="portrait-2">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>landscapes</h3>
+                  <picture>
+                    <source srcset="./img/portraits/portrait-3.webp">
+                    <img src="./img/portraits/portrait-3.png" alt="portrait-3">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>landscapes</h3>
+                  <picture>
+                    <source srcset="./img/portraits/portrait-4.webp">
+                    <img src="./img/portraits/portrait-4.png" alt="portrait-4">
+                  </picture>
+                </div>
+              </div>  
+            </div>
+            <div class="col-4">
+              <div class="row flex-colomn">
+                <div class="image-item">
+                  <h3>landscapes</h3>
+                  <picture>
+                    <source srcset="./img/portraits/portrait-5.webp">
+                    <img src="./img/portraits/portrait-5.png" alt="portrait-5">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/portraits/portrait-6.webp">
+                    <img src="./img/portraits/portrait-6.png" alt="portrait-6">
+                  </picture>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="row flex-colomn">
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/portraits/portrait-7.webp">
+                    <img src="./img/portraits/portrait-7.png" alt="portrait-7">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/sample-5.webp">
+                    <img src="./img/sample-5.png" alt="sample-16">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>landscapes</h3>
+                  <picture>
+                    <source srcset="./img/sample-7.webp">
+                    <img src="./img/sample-8.png" alt="sample-16">
+                  </picture>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+        <div class="container-fluid gallery-images">  <!--LANDSCAPES-->
+          <div><a name="Landscapes"></a></div>
+          <div class="caption bottom-line">
+            <H2>LANDSCAPES</H2>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <div class="row flex-colomn">
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/sample-6.webp">
+                    <img src="./img/sample-6.png" alt="sample-16">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/sample-30.webp">
+                    <img src="./img/sample-30.png" alt="sample-16">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>landscapes</h3>
+                  <picture>
+                    <source srcset="./img/sample-1.webp">
+                    <img src="./img/sample-1.png" alt="sample-16">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>landscapes</h3>
+                  <picture>
+                    <source srcset="./img/sample-8.webp">
+                    <img src="./img/sample-8.png" alt="sample-16">
+                  </picture>
+                </div>
+              </div>  
+            </div>
+            <div class="col-4">
+              <div class="row flex-colomn">
+                <div class="image-item">
+                  <h3>landscapes</h3>
+                  <picture>
+                    <source srcset="./img/sample-3.webp">
+                    <img src="./img/sample-3.png" alt="sample-16">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/sample-4.webp">
+                    <img src="./img/sample-4.png" alt="sample-16">
+                  </picture>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="row flex-colomn">
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/sample-2.webp">
+                    <img src="./img/sample-2.png" alt="sample-16">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/sample-5.webp">
+                    <img src="./img/sample-5.png" alt="sample-16">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>landscapes</h3>
+                  <picture>
+                    <source srcset="./img/sample-7.webp">
+                    <img src="./img/sample-8.png" alt="sample-16">
+                  </picture>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+        <div class="container-fluid gallery-images">  <!--WORK IN SERIES-->
+          <div><a name="WorkInSeries"></a></div>
+          <div class="caption bottom-line">
+            <H2>WORK IN SERIES</H2>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <div class="row flex-colomn">
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/sample-6.webp">
+                    <img src="./img/sample-6.png" alt="sample-16">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/sample-30.webp">
+                    <img src="./img/sample-30.png" alt="sample-16">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>landscapes</h3>
+                  <picture>
+                    <source srcset="./img/sample-1.webp">
+                    <img src="./img/sample-1.png" alt="sample-16">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>landscapes</h3>
+                  <picture>
+                    <source srcset="./img/sample-8.webp">
+                    <img src="./img/sample-8.png" alt="sample-16">
+                  </picture>
+                </div>
+              </div>  
+            </div>
+            <div class="col-4">
+              <div class="row flex-colomn">
+                <div class="image-item">
+                  <h3>landscapes</h3>
+                  <picture>
+                    <source srcset="./img/sample-3.webp">
+                    <img src="./img/sample-3.png" alt="sample-16">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/sample-4.webp">
+                    <img src="./img/sample-4.png" alt="sample-16">
+                  </picture>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="row flex-colomn">
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/sample-2.webp">
+                    <img src="./img/sample-2.png" alt="sample-16">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/sample-5.webp">
+                    <img src="./img/sample-5.png" alt="sample-16">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>landscapes</h3>
+                  <picture>
+                    <source srcset="./img/sample-7.webp">
+                    <img src="./img/sample-8.png" alt="sample-16">
+                  </picture>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+        <div class="container-fluid gallery-images">  <!--GROUP-->
+          <div><a name="Groups"></a></div>
+          <div class="caption bottom-line">
+            <H2>GROUP</H2>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <div class="row flex-colomn">
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/sample-6.webp">
+                    <img src="./img/sample-6.png" alt="sample-16">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/sample-30.webp">
+                    <img src="./img/sample-30.png" alt="sample-16">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>landscapes</h3>
+                  <picture>
+                    <source srcset="./img/sample-1.webp">
+                    <img src="./img/sample-1.png" alt="sample-16">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>landscapes</h3>
+                  <picture>
+                    <source srcset="./img/sample-8.webp">
+                    <img src="./img/sample-8.png" alt="sample-16">
+                  </picture>
+                </div>
+              </div>  
+            </div>
+            <div class="col-4">
+              <div class="row flex-colomn">
+                <div class="image-item">
+                  <h3>landscapes</h3>
+                  <picture>
+                    <source srcset="./img/sample-3.webp">
+                    <img src="./img/sample-3.png" alt="sample-16">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/sample-4.webp">
+                    <img src="./img/sample-4.png" alt="sample-16">
+                  </picture>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="row flex-colomn">
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/sample-2.webp">
+                    <img src="./img/sample-2.png" alt="sample-16">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>Default</h3>
+                  <picture>
+                    <source srcset="./img/sample-5.webp">
+                    <img src="./img/sample-5.png" alt="sample-16">
+                  </picture>
+                </div>
+                <div class="image-item">
+                  <h3>landscapes</h3>
+                  <picture>
+                    <source srcset="./img/sample-7.webp">
+                    <img src="./img/sample-8.png" alt="sample-16">
+                  </picture>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </section>
+      <section class="features text-center">
+        <div class="container">
+          <div class="row bottom-line"> 
+            <div class="col-lg-6 up-line">
+              <p class="title">GPU enhanced animation for&nbsp;life-like experiences</p>
+            </div>
+            <div class="col-lg-6 up-line">
+              <p class="title">Works from IE&nbsp; 11 to&nbsp;Safari &amp; everything in&nbsp;between</p>
+            </div>
+            <div class="col-lg-6 up-line">
+              <p class="title">All the&nbsp;power of&nbsp;Bootstrap&nbsp;4 core &amp; popular plugins</p>
+            </div>
+            <div class="col-lg-6 up-line">
+              <p class="title">More extendable, <br>customizable &amp; hackable</p>
+            </div>
+          </div>
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-8">
+              <p>Discover all the possibilities you can create with Sparrow</p>
+              <button name="button">PURCHASE NOW</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="popupWindow" class="popup-window"></div>
+    <script src="/index.js"></script>   
+</body>
+</html>

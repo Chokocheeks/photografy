@@ -1,0 +1,18 @@
+@keyframes fadeInAndMove{
+    to{
+        opacity: 1;
+        top: 2vh;
+        transform: rotate(45deg) translateX(50%)
+    }
+}
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes animate-line{
+    to{
+        width: 100%;
+    }
+}
