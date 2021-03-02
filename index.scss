@@ -204,7 +204,8 @@ main{
     color: $white ;
     .decoration-mouse-block{
         position: relative;
-        padding-top: 70px;
+        margin-left: -15px;
+        margin-right: -15px;
     }
     .decoration-mouse{
         position: absolute;
