@@ -389,5 +389,8 @@ main{
         font-weight: 700;
         font-size: 11px;
         border: none;
+        &:hover{
+            background-color: #b90c20fd;
+        }
     }
 }
