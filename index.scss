@@ -38,6 +38,12 @@ main{
             font-weight: 700;
             font-size: 11px;
         }
+        .arrow{
+            background: transparent;
+            background-image: url(./img/arrow-right.svg);
+            background-repeat: no-repeat;
+            background-position: 110% center;
+        }
         .content{
             min-width: 40%;
             padding-left: 140px;
