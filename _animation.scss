@@ -1,8 +1,7 @@
 @keyframes fadeInAndMove{
     to{
         opacity: 1;
-        top: 2vh;
-        transform: rotate(45deg) translateX(50%)
+        top: 0;
     }
 }
 @keyframes fadeIn{
