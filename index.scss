@@ -71,6 +71,9 @@ main{
             @media (max-width: $tablet){
                 min-width: 70%;
             }
+            @media (max-width: 565px){
+                padding-left: 80px;
+            }
         }
         .navbar{
             position: fixed;
@@ -108,6 +111,10 @@ main{
            width: 50%;
            transition: right 1s cubic-bezier(1,-0.8,.48,1.55);
            z-index: 1;
+           @media (max-width: 659px){
+            right: -90%;
+            min-width: 90%;
+            }
            &-block{
                display: flex;
                align-items: center;
