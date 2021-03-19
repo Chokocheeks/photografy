@@ -5,6 +5,7 @@
 @import "animation";
 
 $tablet: 991px;
+$mobile: 575px;
 
 html, body{
     scroll-behavior: smooth;
@@ -49,6 +50,9 @@ main{
             @media (max-width: $tablet){
                 font-size: 16px;
             }
+            @media (max-width: $mobile){
+                min-width: 100%;
+            }
         }
         .arrow{
             padding-right: 30px;
@@ -71,8 +75,10 @@ main{
             @media (max-width: $tablet){
                 min-width: 70%;
             }
-            @media (max-width: 565px){
+            @media (max-width: $mobile){
                 padding-left: 80px;
+                padding-right: 80px;
+                min-width: 100%;
             }
         }
         .navbar{

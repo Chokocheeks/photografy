@@ -23,12 +23,14 @@ document.addEventListener('DOMContentLoaded', function(){
 
     const gallerySection = document.querySelector('#gallerySection');
     gallerySection.addEventListener('click', function(event){
-        const currentObj = event.target;
-        if(currentObj.tagName === 'IMG'){
-            popupWindow.classList.add('active');
-            const fullImageSrc = currentObj.getAttribute('src');
-            if(fullImageSrc !== null){
-                fullImage.src = fullImageSrc;
+        if (window.outerWidth > 575){
+            const currentObj = event.target;
+            if(currentObj.tagName === 'IMG'){
+                popupWindow.classList.add('active');
+                const fullImageSrc = currentObj.getAttribute('src');
+                if(fullImageSrc !== null){
+                    fullImage.src = fullImageSrc;
+                }
             }
         }
     });

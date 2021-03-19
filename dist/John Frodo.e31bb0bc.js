@@ -18275,14 +18275,16 @@ document.addEventListener('DOMContentLoaded', function () {
   popupWindow.insertAdjacentElement('afterbegin', buttonClose);
   var gallerySection = document.querySelector('#gallerySection');
   gallerySection.addEventListener('click', function (event) {
-    var currentObj = event.target;
+    if (window.outerWidth > 575) {
+      var currentObj = event.target;
 
-    if (currentObj.tagName === 'IMG') {
-      popupWindow.classList.add('active');
-      var fullImageSrc = currentObj.getAttribute('src');
+      if (currentObj.tagName === 'IMG') {
+        popupWindow.classList.add('active');
+        var fullImageSrc = currentObj.getAttribute('src');
 
-      if (fullImageSrc !== null) {
-        fullImage.src = fullImageSrc;
+        if (fullImageSrc !== null) {
+          fullImage.src = fullImageSrc;
+        }
       }
     }
   }); //делаем что бы крестик закрывал
@@ -18326,7 +18328,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51968" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53209" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

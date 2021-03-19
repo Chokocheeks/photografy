@@ -9967,6 +9967,11 @@ main header .btn {
     font-size: 16px;
   }
 }
+@media (max-width: 575px) {
+  main header .btn {
+    min-width: 100%;
+  }
+}
 main header .arrow {
   padding-right: 30px;
   background: #fff;
@@ -9993,9 +9998,11 @@ main header .content {
     min-width: 70%;
   }
 }
-@media (max-width: 565px) {
+@media (max-width: 575px) {
   main header .content {
     padding-left: 80px;
+    padding-right: 80px;
+    min-width: 100%;
   }
 }
 main header .navbar {
